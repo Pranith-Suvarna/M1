@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Public Suite" parallel="tests" thread-count="2">
+
+
+
+
+<!-- *******************Public Farm Parameters*******************-->
+
+
+	<test name="XIAOMI_RedmiGo_Android_8.1.0_82bc4">
+		
+	    <parameter name="apiKey" value="2zz9g8kp8k8jqpt9jtvkgvdb" />
+		<parameter name="devicefullname" value="XIAOMI_RedmiGo_Android_8.1.0_82bc4" />
+		<parameter name="platformVersion" value="8.1.0" />
+	    <parameter name="appiumEndPoint" value="https://qkm1.qualitykiosk.com/appiumcloud/wd/hub" />
+		<classes>
+			<class name="com.qkm1.test.Sample" />
+		</classes>
+	</test>
+
+	 <test name="ONEPLUS_5T_Android_9.0.0_0d49e">
+		
+	    <parameter name="apiKey" value="2zz9g8kp8k8jqpt9jtvkgvdb" />
+		<parameter name="devicefullname" value="ONEPLUS_7_Android_10.0.0_684c5" />
+		<parameter name="platformVersion" value="10.0.0" />
+		<parameter name="appiumEndPoint" value="https://qkm1.qualitykiosk.com/appiumcloud/wd/hub" />
+        <classes>
+			<class name="com.qkm1.test.Sample" />
+		</classes>
+  	</test>
+  	
+  	
+  	</suite>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Private Suite]" parallel="tests">
+  <test thread-count="2" verbose="0" name="ONEPLUS_7_Android_9.0.0_c4520(failed)" parallel="tests">
+    <parameter name="appiumEndPoint" value="https://qkm1vil.qualitykiosk.com/appiumcloud/wd/hub"/>
+    <parameter name="apiKey" value="p5c5d9ftbrrp8dnzdrtmqrzb"/>
+    <parameter name="platformVersion" value="9.0.0"/>
+    <parameter name="devicefullname" value="SAMSUNG_GalaxyA10s_Android_9.0.0_92e72"/>
+    <classes>
+      <class name="com.qkm1.test.Sample">
+        <methods>
+          <include name="test_01"/>
+          <include name="test_02"/>
+          <include name="quitDriver"/>
+          <include name="startDriver"/>
+        </methods>
+      </class> <!-- com.qkm1.test.Sample -->
+    </classes>
+  </test> <!-- ONEPLUS_7_Android_9.0.0_c4520(failed) -->
+  <test thread-count="2" verbose="0" name="HUAWEI_Honor8X_Android_10.0.0_d9d1b(failed)" parallel="tests">
+    <parameter name="appiumEndPoint" value="https://qkm1vil.qualitykiosk.com/appiumcloud/wd/hub"/>
+    <parameter name="apiKey" value="p5c5d9ftbrrp8dnzdrtmqrzb"/>
+    <parameter name="platformVersion" value="10.0.0"/>
+    <parameter name="devicefullname" value="HUAWEI_Honor8X_Android_10.0.0_d9d1b"/>
+    <classes>
+      <class name="com.qkm1.test.Sample">
+        <methods>
+          <include name="test_01"/>
+          <include name="test_02"/>
+          <include name="quitDriver"/>
+          <include name="startDriver"/>
+        </methods>
+      </class> <!-- com.qkm1.test.Sample -->
+    </classes>
+  </test> <!-- HUAWEI_Honor8X_Android_10.0.0_d9d1b(failed) -->
+</suite> <!-- Failed suite [Private Suite] -->
